@@ -12,10 +12,10 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/devsparks/html5-specialchars"
+    "url": "https://github.com/devsparks/html-specialchars"
   },
   "bugs": {
-    "url": "https://github.com/devsparks/html5-specialchars/issues"
+    "url": "https://github.com/devsparks/html-specialchars/issues"
   },
   "keywords": [
     "utility",
