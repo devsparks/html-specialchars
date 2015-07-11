@@ -4,7 +4,7 @@ to their HTML entities
 as well as `unescape` their corresponding entity/numeric character 
 references back to chars.
 
-## The escpaped (&#8594;) and unescaped (&#8592;)
+## The escaped (&#8594;) and unescaped (&#8592;)
 
 ### 1. Syntax characters
 There are three characters that should always appear in content as escapes, 
