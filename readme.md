@@ -1,8 +1,11 @@
 # html-specialchars
+
+[![npm version](https://badge.fury.io/js/html-specialchars.svg)](http://badge.fury.io/js/html-specialchars)
+
 A small library providing utility methods to `escape` special characters
-to their HTML entities  
-as well as `unescape` their corresponding entity/numeric character 
-references back to chars.
+to their HTML entities as well as `unescape` their corresponding entity/numeric 
+character references back to chars.
+
 
 ## The escaped (&#8594;) and unescaped (&#8592;)
 
@@ -54,8 +57,8 @@ You'll find further clarification in the [OWASP XSS (Cross Site Scripting) Preve
 ```javascript
   var html_specialchars = require('html-specialchars');
 
-  var unsafeUserInput = 'Oh yes, <script>while(1);</script> 
-                         I really enjoyed your party!';
+  var unsafeUserInput = 'Oh yes, <script>while(1);</script>' + 
+                        'I really enjoyed your party!';
   
   var safeString = html_specialchars.escape(unsafeUserInput);
   
@@ -72,5 +75,6 @@ read the [devnotes](https://github.com/devsparks/html-specialchars/blob/master/d
 
 
 ## Release History
+* 1.0.3 Minor bug fixes in documentation, added version badge
 * 1.0.2 Reorganisation of repository contents for being leaner when used in production 
 * 1.0.0 Initial release
