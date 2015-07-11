@@ -68,7 +68,9 @@ You'll find further clarification in the [OWASP XSS (Cross Site Scripting) Preve
 
 ## Development
 If you want to contribute, do tests etc. please 
-read the [devnotes](https://github.com/devsparks/html-specialchars/devnotes.md).
+read the [devnotes](https://github.com/devsparks/html-specialchars/blob/master/devnotes.md).
+
 
 ## Release History
+* 1.0.2 Reorganisation of repository contents for being leaner when used in production 
 * 1.0.0 Initial release
