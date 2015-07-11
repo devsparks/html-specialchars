@@ -1,0 +1,6 @@
+.istanbul.yml
+devnotes.md
+coverage/
+docs/
+es6/
+test/
