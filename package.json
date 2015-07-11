@@ -1,5 +1,5 @@
 {
-  "name": "html5-specialchars",
+  "name": "html-specialchars",
   "version": "1.0.0",
   "description": "A small library providing utility methods to escape special characters to their HTML entities as well as unescape their corresponding entity/numeric character references back to chars.",
   "author": "Michael Kortstiege <mk@devsparks.com>",
