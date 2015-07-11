@@ -4,7 +4,7 @@ to their HTML entities
 as well as `unescape` their corresponding entity/numeric character 
 references back to chars.
 
-## What is escpaped (&#8594;) and unescaped (&#8592;)?
+## The escpaped (&#8594;) and unescaped (&#8592;)
 
 ### 1. Syntax characters
 There are three characters that should always appear in content as escapes, 
@@ -52,13 +52,13 @@ You'll find further clarification in the [OWASP XSS (Cross Site Scripting) Preve
 
 ## Usage
 ```javascript
-var html_specialchars = require('html-specialchars');
+  var html_specialchars = require('html-specialchars');
 
-var unsafeUserInput = 'Oh yes, <script>while(1);</script> I really enjoyed your party!';
-var safeString = html_specialchars.escape(unsafeUserInput);
-var plainTextAgain = html_specialchars.unescape(safeString);
+  var unsafeUserInput = 'Oh yes, <script>while(1);</script> I really enjoyed your party!';
+  var safeString = html_specialchars.escape(unsafeUserInput);
+  var plainTextAgain = html_specialchars.unescape(safeString);
 
-console.log('User input', unsafeUserInput, 'Escaped', safeString, 'Unescaped', plainTextAgain);
+  console.log('User input', unsafeUserInput, 'Escaped', safeString, 'Unescaped', plainTextAgain);
 ```
 
 
@@ -69,7 +69,7 @@ it is transpiled back to ECMAScript 5 for now. This is done by the command below
 (re)placing **index.js** in the root folder:
 
 ```shell
-   npm run compile
+  npm run compile
 ```
 
 
@@ -83,8 +83,8 @@ it's necessary to supply the full relative path of both CLIs.
 This results in a separate test method:
 
 ```shell
-   npm run test
-   npm run test-windows
+  npm run test
+  npm run test-windows
 ```
 
 
@@ -94,7 +94,7 @@ version of jsdoc (as of July 2015) which e.g. supports the new ES6 class
 definition. For this reason **the npm script runs against the ES6 source file**.
 
 ```shell
-   npm run jsdoc
+  npm run jsdoc
 ```
 
 
