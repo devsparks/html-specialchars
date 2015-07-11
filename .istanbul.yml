@@ -1,0 +1,7 @@
+# "istanbul help config" lists all configuation options
+
+instrumentation:
+    excludes: 
+        - "**/es6/**"
+        - "**/docs/**"
+    include-all-sources: true

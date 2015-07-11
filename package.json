@@ -1,0 +1,36 @@
+{
+  "name": "html5-specialchars",
+  "version": "1.0.0",
+  "description": "A small library providing utility methods to escape special characters to their HTML entities as well as unescape their corresponding entity/numeric character references back to chars.",
+  "author": "Michael Kortstiege <mk@devsparks.com>",
+  "scripts": {
+    "compile": "babel es6/ -d ./",
+    "jsdoc": "jsdoc ./es6/index.js -d docs",
+    "test": "istanbul cover jasmine-node ./",
+    "test-windows": ".\\node_modules\\.bin\\istanbul.cmd cover .\\node_modules\\jasmine-node\\bin\\jasmine-node ./"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devsparks/html5-specialchars"
+  },
+  "bugs": {
+    "url": "https://github.com/devsparks/html5-specialchars/issues"
+  },
+  "keywords": [
+    "utility",
+    "html",
+    "escape",
+    "unescape",
+    "chars",
+    "entities",
+    "references"
+  ],
+  "devDependencies": {
+    "babel": "^5.6.14",
+    "istanbul": "^0.3.17",
+    "jasmine-node": "^1.14.5",
+    "jsdoc-75lb": "^3.4.0-dev-6"
+  },
+  "license": "MIT"
+}
