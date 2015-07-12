@@ -1,3 +1,5 @@
+.gitattributes
+.editorconfig
 .istanbul.yml
 devnotes.md
 coverage/

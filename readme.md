@@ -75,6 +75,8 @@ read the [devnotes](https://github.com/devsparks/html-specialchars/blob/master/d
 
 
 ## Release History
+* 1.0.4 Updated readme.txt and package.json tags
 * 1.0.3 Minor bug fixes in documentation, added version badge
-* 1.0.2 Reorganisation of repository contents for being leaner when used in production 
+* 1.0.2 Reorganisation of repository contents for being leaner when used in production
+* 1.0.1 Minor bug fixes
 * 1.0.0 Initial release
